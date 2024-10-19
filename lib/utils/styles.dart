@@ -13,10 +13,18 @@ abstract class Styles {
     fontFamily: kPoppins,
     color: AppColors.textSecondary,
   );
+  static TextStyle poppinsMedium16 = const TextStyle(
+    fontSize: 16,
+    fontFamily: kPoppins,
+    color: AppColors.textPrimary,
+    fontWeight: FontWeight.w500,
+    decoration: TextDecoration.underline,
+    decorationColor: AppColors.textPrimary,
+  );
   static TextStyle poppinsRegular30 = const TextStyle(
     fontSize: 30,
     fontFamily: kPoppins,
-    color: AppColors.tertiary,
+    color: AppColors.textPrimary,
   );
   static TextStyle poppinsRegular24 = const TextStyle(
     fontSize: 24,
