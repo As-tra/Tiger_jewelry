@@ -1,10 +1,28 @@
 import 'package:flutter/material.dart';
+import 'package:jewelry/widgets/home_view_app_bar.dart';
+import 'package:jewelry/widgets/principaux_boutique.dart';
+import 'package:jewelry/widgets/rings_list_view.dart';
 
 class HomeViewBody extends StatelessWidget {
   const HomeViewBody({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const SafeArea(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          SizedBox(height: 40),
+          HomeViewAppBar(),
+          SizedBox(height: 45),
+          SizedBox(
+            height: 270,
+            child: RingsListView(),
+          ),
+          SizedBox(height: 55),
+          PrincipauxBoutiques(),
+        ],
+      ),
+    );
   }
 }

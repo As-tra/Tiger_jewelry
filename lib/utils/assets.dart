@@ -31,8 +31,16 @@ class Assets {
   static const String imagesReturn = "assets/images/return.svg";
 
   /// Assets for imagesRing1
-  /// assets/images/ring1.svg
-  static const String imagesRing1 = "assets/images/ring1.svg";
+  /// assets/images/ring1.png
+  static const String imagesRing1 = "assets/images/ring1.png";
+
+  /// Assets for imagesRing2
+  /// assets/images/ring2.png
+  static const String imagesRing2 = "assets/images/ring2.png";
+
+  /// Assets for imagesRing3
+  /// assets/images/ring3.png
+  static const String imagesRing3 = "assets/images/ring3.png";
 
   /// Assets for imagesSearch
   /// assets/images/search.svg

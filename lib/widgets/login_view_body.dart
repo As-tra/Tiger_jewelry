@@ -49,7 +49,7 @@ class LoginViewBody extends StatelessWidget {
 
   BoxDecoration _buildDecoration() {
     return const BoxDecoration(
-      gradient: kGradient,
+      gradient: kGradient1,
     );
   }
 }
