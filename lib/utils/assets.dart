@@ -10,6 +10,10 @@ class Assets {
   /// assets/images/boxes.svg
   static const String imagesBoxes = "assets/images/boxes.svg";
 
+  /// Assets for imagesKey
+  /// assets/images/key.svg
+  static const String imagesKey = "assets/images/key.svg";
+
   /// Assets for imagesLocation
   /// assets/images/location.svg
   static const String imagesLocation = "assets/images/location.svg";
@@ -17,6 +21,10 @@ class Assets {
   /// Assets for imagesLogo
   /// assets/images/Logo.png
   static const String imagesLogo = "assets/images/Logo.png";
+
+  /// Assets for imagesMail
+  /// assets/images/mail.svg
+  static const String imagesMail = "assets/images/mail.svg";
 
   /// Assets for imagesReturn
   /// assets/images/return.svg

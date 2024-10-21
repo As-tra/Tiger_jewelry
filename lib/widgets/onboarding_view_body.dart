@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:jewelry/utils/assets.dart';
 import 'package:jewelry/utils/styles.dart';
+import 'package:jewelry/views/login_view.dart';
 import 'package:jewelry/widgets/connect_button.dart';
 import 'package:jewelry/widgets/inscription_button.dart';
 
@@ -35,7 +36,13 @@ class OnboardingViewBody extends StatelessWidget {
                   ),
                 ),
                 const Spacer(flex: 3),
-                const ConnectButton(),
+                ConnectButton(
+                  ontap: () => Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => const LoginView(),
+                    ),
+                  ),
+                ),
                 const SizedBox(height: 24),
                 const InscriptionButton(),
                 const SizedBox(height: 30),
