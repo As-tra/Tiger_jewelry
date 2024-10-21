@@ -2,13 +2,17 @@
 class Assets {
   Assets._();
   
+  /// Assets for imagesArrowForward
+  /// assets/images/arrow_forward.svg
+  static const String imagesArrowForward = "assets/images/arrow_forward.svg";
+
   /// Assets for imagesBg
   /// assets/images/bg.png
   static const String imagesBg = "assets/images/bg.png";
 
   /// Assets for imagesBoxes
-  /// assets/images/boxes.svg
-  static const String imagesBoxes = "assets/images/boxes.svg";
+  /// assets/images/boxes.png
+  static const String imagesBoxes = "assets/images/boxes.png";
 
   /// Assets for imagesKey
   /// assets/images/key.svg
@@ -45,5 +49,17 @@ class Assets {
   /// Assets for imagesSearch
   /// assets/images/search.svg
   static const String imagesSearch = "assets/images/search.svg";
+
+  /// Assets for imagesStore1
+  /// assets/images/store1.jpg
+  static const String imagesStore1 = "assets/images/store1.jpg";
+
+  /// Assets for imagesStore2
+  /// assets/images/store2.jpg
+  static const String imagesStore2 = "assets/images/store2.jpg";
+
+  /// Assets for imagesStore3
+  /// assets/images/store3.jpg
+  static const String imagesStore3 = "assets/images/store3.jpg";
 }
 
