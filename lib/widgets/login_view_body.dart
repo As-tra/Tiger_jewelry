@@ -16,19 +16,28 @@ class LoginViewBody extends StatelessWidget {
       child: SafeArea(
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+          child: Stack(
             children: [
-              const SizedBox(height: 40),
-              _buildReturnButton(context),
-              const SizedBox(height: 45),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 52.0),
-                child: Text("Salut,\nSteven", style: Styles.poppinsRegular30),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  const SizedBox(height: 40),
+                  _buildReturnButton(context),
+                  const SizedBox(height: 45),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 52.0),
+                    child:
+                        Text("Salut,\nSteven", style: Styles.poppinsRegular30),
+                  ),
+                  const SizedBox(height: 100),
+                  const StairShape(),
+                  const LoginForm(),
+                ],
               ),
-              const SizedBox(height: 100),
-              const StairShape(),
-              const LoginForm(),
+              Positioned(
+                right: -100,
+                child: Image.asset(Assets.imagesBoxes),
+              ),
             ],
           ),
         ),
